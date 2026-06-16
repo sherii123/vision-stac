@@ -14,12 +14,12 @@ function Features() {
 
       
       <div class="p-4 md:w-1/3 flex">
-        <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-600 flex-shrink-0">
+        <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-600 shrink-0">
           <svg fill="none" stroke="currentColor" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
             <path d="M16 18l6-6-6-6M8 6l-6 6 6 6"></path>
           </svg>
         </div>
-        <div class="flex-grow pl-6">
+        <div class="grow pl-6">
           <h2 class="text-gray-900 text-lg font-semibold mb-2">
             Web Development
           </h2>
@@ -36,14 +36,14 @@ function Features() {
 
       
       <div class="p-4 md:w-1/3 flex">
-        <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-600 flex-shrink-0">
+        <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-600 shrink-0">
           <svg fill="none" stroke="currentColor" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
             <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
             <path d="M2 17l10 5 10-5"></path>
             <path d="M2 12l10 5 10-5"></path>
           </svg>
         </div>
-        <div class="flex-grow pl-6">
+        <div class="grow pl-6">
           <h2 class="text-gray-900 text-lg font-semibold mb-2">
             UI/UX Design
           </h2>
@@ -59,13 +59,13 @@ function Features() {
 
       
       <div class="p-4 md:w-1/3 flex">
-        <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-600 flex-shrink-0">
+        <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-600 shrink-0">
           <svg fill="none" stroke="currentColor" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
             <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
             <circle cx="12" cy="7" r="4"></circle>
           </svg>
         </div>
-        <div class="flex-grow pl-6">
+        <div class="grow pl-6">
           <h2 class="text-gray-900 text-lg font-semibold mb-2">
             Freelance Solutions
           </h2>
