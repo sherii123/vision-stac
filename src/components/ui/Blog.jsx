@@ -50,7 +50,7 @@ function Blog() {
         </div>
       </div>
 
-<div className="flex flex-wrap -m-4">
+
       <div className="p-4 md:w-1/3">
         <div className="h-full bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
 
@@ -75,11 +75,11 @@ function Blog() {
             </p>
 
 
-          </div>
+          
         </div>
       </div>
 </div>
-<div className="flex flex-wrap -m-4">
+
       <div className="p-4 md:w-1/3">
         <div className="h-full bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
 
@@ -106,7 +106,7 @@ function Blog() {
            </div>
           </div>
         </div>
-      </div>
+      
     </section>
   )
 }
