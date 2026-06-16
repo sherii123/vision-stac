@@ -2,112 +2,112 @@ import React from 'react'
 
 function Blog() {
   return (
-    <section id="projects" className="text-gray-600 body-font bg-linear-to-r from-indigo-200 to-teal-300">
-      <div className="container px-5 py-24 mx-auto">
-
-
-        <div className="text-center mb-16">
-          <h2 className="text-indigo-600 font-semibold tracking-widest">
-            MY WORK
-          </h2>
-
-          <h1 className="text-4xl font-bold text-gray-900 mt-2">
-            Featured Projects
-          </h1>
-
-          <p className="mt-4 text-gray-500 max-w-2xl mx-auto">
-            Here are some projects I've built using React.js, JavaScript,
-            Tailwind CSS, and modern web technologies.
-          </p>
-        </div>
-      </div>
-<div className="container px-5 py-24 mx-auto">
-      <div className="flex flex-wrap -m-4">
-          <div className="h-full bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
-
-            <img
-              className="lg:h-48 md:h-36 w-full object-cover"
-              src="https://elements-resized.envatousercontent.com/elements-cover-images/82724568-5cab-4c56-9f46-7a435a8701e3?w=433&cf_fit=scale-down&q=85&format=auto&s=ed136646e5216751f55abdc4cbaa332bf878fb2b09f72ac94d7ea9a8453ae274"
-              alt="Portfolio Website"
-            />
-
-            <div className="p-6">
-              <h2 className="text-xs font-semibold text-indigo-600 mb-2">
-                REACT • TAILWIND CSS
-              </h2>
-
-              <h1 className="text-xl font-bold text-gray-900 mb-3">
-                Portfolio Website
-              </h1>
-
-              <p className="leading-relaxed mb-4">
-                A modern responsive portfolio website showcasing projects,
-                skills, and contact information.
-              </p>
-            </div>
-          </div>
-        </div>
+    <section id="projects" class="text-gray-600 body-font bg-sky-500/70">
+  <div class="container px-5 py-24 mx-auto">
     
+    <div class="text-center mb-12">
+      <h2 class="text-sm text-indigo-500 tracking-widest font-medium">
+        MY WORK
+      </h2>
+      <h1 class="text-4xl font-bold text-gray-900">
+        Featured Projects
+      </h1>
+      <p class="mt-4 text-gray-500">
+        A collection of projects showcasing my skills in web development,
+        UI/UX design, and modern technologies.
+      </p>
+    </div>
 
+    <div class="flex flex-wrap -m-4">
 
-      
-        <div className="h-full bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
-
+     
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
           <img
-            className="lg:h-48 md:h-36 w-full object-cover"
-            src="https://img.magnific.com/free-vector/flat-design-online-shopping-landing-page-template_23-2148532676.jpg?semt=ais_hybrid&w=740&q=80"
+            class="lg:h-48 md:h-36 w-full object-cover object-center"
+            src="https://cdn.dribbble.com/userupload/23744972/file/original-f09ad4491cf30c1628e68083ad7d12ad.jpg?resize=400x0"
             alt="E-Commerce Website"
           />
 
-          <div className="p-6">
-            <h2 className="text-xs font-semibold text-indigo-600 mb-2">
-              REACT • API
+          <div class="p-6">
+            <h2 class="tracking-widest text-xs font-medium text-indigo-500 mb-1">
+              React • Tailwind • Node.js
             </h2>
 
-            <h1 className="text-xl font-bold text-gray-900 mb-3">
-              E-Commerce Store
+            <h1 class="text-xl font-semibold text-gray-900 mb-3">
+              E-Commerce Website
             </h1>
 
-            <p className="leading-relaxed mb-4">
-              An online shopping platform with product filtering,
-              cart management, and responsive design.
+            <p class="leading-relaxed mb-4">
+              A fully responsive e-commerce platform with authentication,
+              shopping cart, payment integration, and admin dashboard.
             </p>
 
-
-          
+            
+          </div>
         </div>
       </div>
 
-
-      
-        <div className="h-full bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
-
+     
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
           <img
-            className="lg:h-48 md:h-36 w-full object-cover"
-            src="https://www.shutterstock.com/image-vector/weather-forecast-app-template-mobile-260nw-2607710345.jpg"
-            alt="Weather App"
+            class="lg:h-48 md:h-36 w-full object-cover object-center"
+            src="https://i.ytimg.com/vi/RroDdybvu5s/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAJ9Z8bCU10U3JtCLkhXNErdirz6A"
+            alt="Portfolio Website"
           />
 
-          <div className="p-6">
-            <h2 className="text-xs font-semibold text-indigo-600 mb-2">
-              JAVASCRIPT • API
+          <div class="p-6">
+            <h2 class="tracking-widest text-xs font-medium text-indigo-500 mb-1">
+              Next.js • Tailwind CSS
             </h2>
 
-            <h1 className="text-xl font-bold text-gray-900 mb-3">
-              Weather App
+            <h1 class="text-xl font-semibold text-gray-900 mb-3">
+              Personal Portfolio
             </h1>
 
-            <p className="leading-relaxed mb-4">
-              Real-time weather forecasting application using external
-              APIs and responsive UI design.
+            <p class="leading-relaxed mb-4">
+              A modern portfolio website featuring animations, responsive
+              layouts, project showcases, and contact functionality.
             </p>
 
-           </div>
+            
           </div>
         </div>
+      </div>
+
       
-      
-    </section>
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
+          <img
+            class="lg:h-48 md:h-36 w-full object-cover object-center"
+            src="https://stastic.ui4free.com/public/images/task-management-web-app-design-figma-template_1657335020.jpg"
+            alt="Task Management App"
+          />
+
+          <div class="p-6">
+            <h2 class="tracking-widest text-xs font-medium text-indigo-500 mb-1">
+              MERN Stack
+            </h2>
+
+            <h1 class="text-xl font-semibold text-gray-900 mb-3">
+              Task Management App
+            </h1>
+
+            <p class="leading-relaxed mb-4">
+              A productivity application with task tracking, authentication,
+              team collaboration, and real-time updates.
+            </p>
+
+            
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+ 
+</section>
   )
 }
 
